@@ -1,0 +1,9 @@
+1. Create LeagueTable:
+- should store list of LeagueTableEntries.
+- should calculate scores for LeagueTableEntry.
+- should produce sorted list of LeagueTableEntry by: points, goal difference, goalsFor, teamName.
+
+2. Create Unit tests.
+
+Constrains:
+- do not change method signatures

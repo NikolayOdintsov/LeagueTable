@@ -1,0 +1,36 @@
+package com.sport_company.model;
+
+/**
+ * Created by nikolay.odintsov on 17/09/16.
+ * <p/>
+ * Class is a model for match.
+ */
+public class Match {
+    private String homeTeam;
+    private String awayTeam;
+    private int homeScore;
+    private int awayScore;
+
+    public Match(final String homeTeam, final String awayTeam, final int homeScore, final int awayScore) {
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
+        this.homeScore = homeScore;
+        this.awayScore = awayScore;
+    }
+
+    public String getHomeTeam() {
+        return homeTeam;
+    }
+
+    public String getAwayTeam() {
+        return awayTeam;
+    }
+
+    public int getHomeScore() {
+        return homeScore;
+    }
+
+    public int getAwayScore() {
+        return awayScore;
+    }
+}
